@@ -258,6 +258,7 @@
     position:relative; z-index:1;
     height:600px;
     border-radius:28px;
+    margin-top:40px;
     overflow:hidden;
     box-shadow:var(--shadow);
     opacity:0; transform:scale(0.96);
@@ -1025,7 +1026,7 @@ body.modal-lock { overflow: hidden; }
   @media (max-width:980px){
     .hero .container{ flex-direction:column; gap:3.4vw; }
     .hero .container > *{ flex: 1 1 100%; min-width: 100%; }
-    .hero-visual{ order:-1; height:clamp(260px, 46vw, 340px);margin-top:32px; }
+    .hero-visual{ order:-1; height:clamp(260px, 46vw, 340px);margin-top:3.4vh; }
     .hero{ padding-top:120px; padding-bottom:60px; min-height:auto; }
     .about .container{ flex-direction:column; gap:40px; }
     .about .container > *{ flex: 1 1 100%; min-width: 100%; }
