@@ -55,7 +55,7 @@
   }, { passive:true });
 
   // Mobile menu toggle
-  const burger = document.getElementById('burger');
+    const burger = document.getElementById('burger');
   const navLinks = document.getElementById('navLinks');
   burger.addEventListener('click', () => {
     burger.classList.toggle('open');
@@ -67,6 +67,7 @@
       navLinks.classList.remove('open');
     });
   });
+
 
   // Active nav link on scroll
   const sections = document.querySelectorAll('section[id]');
